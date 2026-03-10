@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --yes)",
+      "Read(//Users/macamid/Desktop/N8N/**)",
+      "Bash(npx create-next-app@latest ai-stream-tmp --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --yes)",
+      "Bash(cp -r /Users/macamid/Desktop/N8N/ai-stream-tmp/. \"/Users/macamid/Desktop/N8N/4. AIStream_v1/\")",
+      "Bash(rm -rf /Users/macamid/Desktop/N8N/ai-stream-tmp)",
+      "Bash(npx shadcn@latest init -d)"
+    ]
+  }
+}
