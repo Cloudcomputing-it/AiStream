@@ -122,8 +122,25 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
   }
   html {
     @apply font-sans;
   }
+}
+
+/* React Flow anpassen */
+.react-flow__node {
+  font-family: var(--font-dm-sans), ui-sans-serif, system-ui, sans-serif;
+}
+.react-flow__edge-path {
+  stroke: #d1d5db;
+  stroke-width: 2;
+}
+.react-flow__edge.animated .react-flow__edge-path {
+  stroke: #0d9488;
+}
+.react-flow__handle {
+  width: 10px !important;
+  height: 10px !important;
 }
